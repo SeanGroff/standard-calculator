@@ -3,7 +3,7 @@ body {
 }
 
 .calculator {
-	height: 300px;
+	height: 324px;
 	width: 257px;
 	background-color: gray;
 	position: relative;
@@ -14,26 +14,20 @@ body {
 
 .screen {
 	position: relative;
-	left: 15px;
+	left: 17px;
 	top: 20px;
-	width: 220px;
+	width: 213px;
 	height: 40px;
-}
-
-.screen input {
-	position: relative;
-	left: 2px;
-	top: 2px;
-	height: 35px;
-	color: blank;
+	color: black;
 	background-color: #bccd95;
 	font-size: 21px;
+	padding: 5px;
 	text-align: right;
 }
 
 .buttons {
 	position: relative;
-	top: 15px;
+	top: 25px;
 }
 
 .btn {
@@ -54,12 +48,17 @@ body {
 	border-bottom: #d3d3d3 2px solid;
 }
 
+.btnLarge {
+	width: 100px;
+}
+
 p {
 	line-height: 10px;
 }
 
 .btn.orange {
 	color: white;
+	font-weight: bold;
 	background-color: #ff9933;
 	border-top: #ff9933 2px solid;
 	border-bottom: black 2px solid;
